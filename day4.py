@@ -70,7 +70,7 @@ else:
     print("the quotient is: ",op1/op2)
 '''
 #traditional way
-operator=int(input("enter the operator: \n1.Add \n2.Sub \n3.Mul \n"))
+'''operator=int(input("enter the operator: \n1.Add \n2.Sub \n3.Mul \n"))
 op1=int(input("enter the first operand: "))
 op2=int(input("enter the second operand: "))
 if operator == 1:
@@ -80,7 +80,15 @@ elif operator == 2:
 elif operator == 3:
     print(op1*op2)
 else:
-    print(op1/op2)
+    print(op1/op2)'''
+num=int(input("enter a number: "))
+if num>0:
+    print("positive")
+elif num<0:
+    print("negative")
+else:
+    print("zero")
+
 
 
 
